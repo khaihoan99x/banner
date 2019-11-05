@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Vonique 64';
+    src: url('../Banner/fonts/Vonique64-Bold.eot');
+    src: url('../Banner/fonts/Vonique64-Bold.eot?#iefix') format('embedded-opentype'), url('../Banner/fonts/Vonique64-Bold.woff2') format('woff2'), url('../Banner/fonts/Vonique64-Bold.woff') format('woff'), url('../Banner/fonts/Vonique64-Bold.ttf') format('truetype'), url('../Banner/fonts/Vonique64-Bold.svg#Vonique64-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdobeGurmukhi-Bold';
+    src: url('../Banner/fonts/AdobeGurmukhi-Bold.eot');
+    src: url('../Banner/fonts/AdobeGurmukhi-Bold.eot?#iefix') format('embedded-opentype'), url('../Banner/fonts/AdobeGurmukhi-Bold.svg#AdobeGurmukhi-Bold') format('svg'), url('../Banner/fonts/AdobeGurmukhi-Bold.ttf') format('truetype'), url('../Banner/fonts/AdobeGurmukhi-Bold.woff') format('woff'), url('../Banner/fonts/AdobeGurmukhi-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 904px;
+    padding: 40px 52px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.two-night {
+    background: #f04178;
+    margin: 0 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: #f84781;
+    padding: 77px 25px 55px;
+}
+
+.text-bg p {
+    font-size: 31.32px;
+    color: #ffffff;
+    line-height: 15.66px;
+    letter-spacing: 1.2px;
+    font-family: 'Vonique 64';
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.text-bg p span {
+    color: #feec00;
+}
+
+.general {
+    display: flex;
+    width: 100%;
+}
+
+.left-bg {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-bg img {
+    width: 100%;
+}
+
+.right-bg {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-weekend p {
+    font-size: 29.12px;
+    color: #ffffff;
+    line-height: 17.47px;
+    letter-spacing: 0.8px;
+    font-family: 'Vonique 64';
+    font-weight: 700;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.sales h2 {
+    font-size: 111.61px;
+    color: #feec00;
+    line-height: 17.47px;
+    letter-spacing: 0.4px;
+    font-family: 'AdobeGurmukhi-Bold';
+    font-weight: 700;
+    margin-bottom: 88px;
+    margin-top: 10px;
+}
+
+.percent-weekend p {
+    font-size: 126.17px;
+    color: #ffffff;
+    line-height: 17.47px;
+    letter-spacing: 0.8px;
+    font-family: 'Vonique 64';
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.off p {
+    font-size: 45.62px;
+    color: #feec00;
+    line-height: 17.47px;
+    letter-spacing: 0.4px;
+    font-family: 'Vonique 64';
+    font-weight: 700;
+}
+
+.horizontal img {
+    width: 100%;
+}
+
+.general-weekend {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.horizontal {
+    margin-right: 10px;
+}
+
+@media screen and (max-width:720px) {
+    .sales h2 {
+        font-size: 80.61px;
+    }
+    .title-weekend p {
+        font-size: 17.12px;
+    }
+    .percent-weekend p {
+        font-size: 81.17px;
+    }
+    .off p {
+        font-size: 33.62px;
+    }
+    .text-bg p {
+        font-size: 20.32px;
+    }
+    section.two-night {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .general {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-bg {
+        width: 100%;
+    }
+    .right-bg {
+        width: 100%;
+    }
+    .background {
+        background-color: unset;
+        padding: 0;
+    }
+    .title-weekend p {
+        margin-top: 25px;
+    }
+}
