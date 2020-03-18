@@ -73,6 +73,10 @@ asgjahsgkj body {
     width: 100%;
 }
 
+.border {
+    display: none;
+}
+
 .right-bg {
     display: flex;
     width: 50%;
